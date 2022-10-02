@@ -1,0 +1,51 @@
+
+.ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 15vw;
+    margin-top: 1rem;
+    
+    
+    }
+    
+    .todo-List{
+      text-decoration: none;
+      margin-top: .5rem;
+      /* background-color: rgb(68, 90, 68); */
+      list-style: none;
+    }
+
+  .ol .btn{
+    background: #20c46f;
+  /* border-radius: 100px; */
+  max-width: 10px;
+  min-width: 30px;
+  /* border:2px solid green; */
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.149);
+  color: white
+  }
+  .ol .btn:hover{
+    color: red;
+  }
+
+  .todo-List{
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    justify-content: center;
+    margin: 0 .5rem ;
+
+    color: grey;
+    /* margin: .8 0.5rem 0 0.5rem; */
+  }
+
+  .ol .edit{
+    margin-right: .5rem;
+  
+  }
+    
+    

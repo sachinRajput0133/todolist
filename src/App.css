@@ -31,6 +31,19 @@ html{
  position: relative;
 
 }
+
+@media (min-width:601px ) and (max-width: 900px) {
+  .container-wrapper{
+    width: 40vw;
+  }
+
+}
+@media (max-width:600px ) {
+  .container-wrapper{
+    width: 80vw;
+  }
+
+}
 input{
   border: none;
   border-bottom: 2px solid rgb(161, 155, 155);

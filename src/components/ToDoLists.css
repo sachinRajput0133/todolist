@@ -2,7 +2,7 @@
 .ol{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     text-align: center;
     align-items: center;
     /* border: 2px solid red; */
@@ -46,6 +46,11 @@
   .ol .edit{
     margin-right: .5rem;
   
+  }
+
+  @media (max-width:600px){
+       
+
   }
     
     
